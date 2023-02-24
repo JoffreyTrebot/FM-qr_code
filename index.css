@@ -1,0 +1,40 @@
+body {
+    font-family: 'Roboto';
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#content {
+    background-color: white;
+    padding: 15px 15px 30px 15px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+    margin: auto;
+}
+
+#content > img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#content > h1 {
+    font-weight: bold;
+    color: rgb(26, 29, 33);
+}
+
+
+#content > p {
+    color: rgb(120, 120, 120);
+}
+#attribution {
+    text-align: center;
+    margin: 20px;
+}
