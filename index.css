@@ -3,7 +3,7 @@ body {
     background-color: hsl(212, 45%, 89%);
     margin: 0;
     padding: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,32 +11,31 @@ body {
 
 #content {
     background-color: hsl(0, 0%, 100%);
-    padding: 15px 15px 25px 15px;
-    border-radius: 15px;
+    padding: 1rem;
+    border-radius: 1rem;
     text-align: center;
     max-width: 280px;
-    margin: 20px;
     margin: auto;
 }
 
 #content > img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
+    max-width: 100%;
+    border-radius: 0.7rem;
 }
 
 #content > h1 {
     font-weight: bold;
     color: hsl(218, 44%, 22%);
-    font-size: 22px;
+    font-size: 1.4rem;
 }
-
 
 #content > p {
     color: hsl(220, 15%, 55%);
-    font-size: 15px;
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
 }
+
 #attribution {
     text-align: center;
-    margin: 20px;
+    margin: 1.2rem;
 }
